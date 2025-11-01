@@ -96,13 +96,6 @@ Add a minimal `pyproject.toml` or `setup.cfg`/`setup.py` if you plan to publish.
 - ANSI colors not showing: older Windows consoles may not render ANSI escapes; try using Windows Terminal or enable VT processing.
 - Stats not saved: check file permission errors or if `SAVE` points to a directory you can't write.
 
-### Next steps / small tasks
 
-1. Add a `README.md` describing the project and usage examples.
-2. Add basic unit tests and a CI action to run them.
-3. Improve error reporting for `save_stats()` so write issues are visible to users.
-4. Make the wordlist configurable and add a larger default list for better drills.
 
----
-
-This tutorial should help you understand how the project is built and where to make changes. If you want, I can also create a `README.md`, a few unit tests, or change the stats path to a Windows-friendly location — tell me which and I'll implement it.
+This tutorial should help you understand how the project is built and where to make changes.
